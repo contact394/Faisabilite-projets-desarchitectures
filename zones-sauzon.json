@@ -1,0 +1,101 @@
+{
+  "commune": "Sauzon",
+  "code_insee": "56242",
+  "derniere_revision_plu": "À vérifier",
+  "notes_generales": "Sauzon est la commune la plus contrainte de Belle-Île. Le port et le bourg sont classés Site Patrimonial Remarquable (SPR). L'ABF y est particulièrement vigilant. La Loi Littoral s'applique sur une grande partie du territoire.",
+  "zones": [
+    {
+      "code": "UA",
+      "libelle": "Zone urbaine — bourg et port de Sauzon",
+      "constructible": true,
+      "types_autorises": ["rehabilitation", "extension", "changement_destination"],
+      "hauteur_max": "7m — gabarit existant à respecter impérativement",
+      "emprise_sol_max": "60%",
+      "recul_voirie": "0m — alignement strict",
+      "recul_limite_separative": "0m en continuité du bâti, 3m sinon",
+      "stationnement": "1 place par logement, difficile à réaliser en centre",
+      "abf": true,
+      "spr": true,
+      "loi_littoral": true,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Pierre de taille ou enduit chaux strictement imposé",
+        "Ardoise naturelle OBLIGATOIRE — zinc toléré en couverture secondaire",
+        "Menuiseries bois peintes — couleurs soumises à validation ABF",
+        "Pas de vérandas visibles depuis l'espace public",
+        "Devantures commerciales soumises à autorisation SPR",
+        "Ravalements obligatoirement soumis à déclaration préalable",
+        "Toute modification de façade soumise à accord préalable ABF"
+      ],
+      "interdictions": [
+        "Constructions neuves de toutes pièces (sauf remplacement à l'identique)",
+        "Surélévation modifiant le gabarit du quartier",
+        "Bardage bois ou métallique en façade principale",
+        "Châssis de toit visibles depuis l'espace public sans accord ABF",
+        "Clôtures non conformes au caractère local"
+      ],
+      "notes": "Zone la plus contrainte de Belle-Île. Site Patrimonial Remarquable. Chaque projet, même mineur, nécessite une consultation ABF préalable. Construction neuve quasi impossible. Réhabilitation et changement de destination privilégiés."
+    },
+    {
+      "code": "UH",
+      "libelle": "Zone de hameau — hameaux de Sauzon",
+      "constructible": true,
+      "types_autorises": ["extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "6m",
+      "emprise_sol_max": "20%",
+      "recul_voirie": "5m",
+      "recul_limite_separative": "3m",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Continuité volumétrique avec l'existant",
+        "Ardoise naturelle",
+        "Matériaux pierre ou enduit chaux"
+      ],
+      "interdictions": [
+        "Construction neuve isolée"
+      ],
+      "notes": "Hameaux dispersés. Extension modérée autorisée dans la continuité du bâti."
+    },
+    {
+      "code": "A",
+      "libelle": "Zone agricole",
+      "constructible": false,
+      "types_autorises": ["rehabilitation"],
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Construction neuve habitation",
+        "Changement destination sans CDPENAF et ABF"
+      ],
+      "notes": "Terres agricoles de l'intérieur de l'île côté Sauzon."
+    },
+    {
+      "code": "N",
+      "libelle": "Zone naturelle",
+      "constructible": false,
+      "types_autorises": [],
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": ["Toute construction et aménagement permanent"],
+      "notes": "Côtes sauvages, pointe des Poulains. Zone de protection maximale."
+    },
+    {
+      "code": "Nco",
+      "libelle": "Coupure d'urbanisation",
+      "constructible": false,
+      "types_autorises": [],
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": ["Toute construction et tout aménagement"],
+      "notes": "Coupure Loi Littoral. Inconstructible absolument."
+    }
+  ]
+}
