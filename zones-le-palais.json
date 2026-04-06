@@ -1,0 +1,168 @@
+{
+  "commune": "Le Palais",
+  "code_insee": "56170",
+  "derniere_revision_plu": "À vérifier",
+  "zones": [
+    {
+      "code": "UA",
+      "libelle": "Zone urbaine centrale — centre bourg Le Palais",
+      "constructible": true,
+      "types_autorises": ["construction_neuve", "extension", "rehabilitation", "surelevation", "changement_destination"],
+      "hauteur_max": "9m — R+2 maximum",
+      "emprise_sol_max": "60%",
+      "coefficient_occupation": "Non réglementé (post-loi ALUR)",
+      "recul_voirie": "0m — alignement obligatoire sur rue",
+      "recul_limite_separative": "3m minimum ou en limite",
+      "stationnement": "1 place minimum par logement",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Façades en pierre de taille ou enduit ton pierre obligatoire",
+        "Menuiseries bois ou aspect bois imposées",
+        "Toitures en ardoise naturelle",
+        "Pas de bardage bois en façade sur rue",
+        "Volets battants obligatoires"
+      ],
+      "interdictions": [
+        "Constructions à usage industriel",
+        "Entrepôts",
+        "Camping",
+        "Affouillements non liés à une construction"
+      ],
+      "notes": "Zone dense du bourg. ABF systématique. Ravalement soumis à déclaration préalable."
+    },
+    {
+      "code": "UB",
+      "libelle": "Zone urbaine de bourg — extensions récentes",
+      "constructible": true,
+      "types_autorises": ["construction_neuve", "extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "7m — R+1+C maximum",
+      "emprise_sol_max": "40%",
+      "coefficient_occupation": "Non réglementé",
+      "recul_voirie": "5m minimum",
+      "recul_limite_separative": "3m minimum",
+      "stationnement": "2 places minimum par logement",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Toitures en ardoise naturelle ou zinc",
+        "Façades en pierre, enduit ou bardage bois",
+        "Teintes claires imposées pour les enduits"
+      ],
+      "interdictions": [
+        "Constructions à usage industriel",
+        "Affouillements non liés à une construction"
+      ],
+      "notes": "Zone pavillonnaire. Permis de construire obligatoire au-delà de 20m²."
+    },
+    {
+      "code": "UH",
+      "libelle": "Zone urbaine de hameau",
+      "constructible": true,
+      "types_autorises": ["extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "6m — R+1 maximum",
+      "emprise_sol_max": "30%",
+      "coefficient_occupation": "Non réglementé",
+      "recul_voirie": "5m minimum",
+      "recul_limite_separative": "3m minimum",
+      "stationnement": "2 places minimum",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Volumétrie en continuité avec le bâti existant",
+        "Ardoise naturelle obligatoire",
+        "Matériaux locaux privilégiés"
+      ],
+      "interdictions": [
+        "Construction neuve isolée (hors extension de l'existant)",
+        "Changement de vocation agricole du hameau"
+      ],
+      "notes": "Extensions limitées à 30% de la surface existante dans certains cas. Vérifier au cas par cas."
+    },
+    {
+      "code": "A",
+      "libelle": "Zone agricole",
+      "constructible": false,
+      "types_autorises": ["rehabilitation"],
+      "hauteur_max": "Non applicable hors bâtiments agricoles",
+      "emprise_sol_max": "Non applicable",
+      "recul_voirie": "10m minimum",
+      "recul_limite_separative": "5m minimum",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Construction neuve à usage d'habitation",
+        "Extension au-delà de 30% de la surface existante",
+        "Changement de destination sauf exception réglementaire (L.151-11 CU)"
+      ],
+      "notes": "Seules les constructions nécessaires à l'exploitation agricole sont autorisées. Changement de destination possible sous conditions strictes avec accord ABF et avis conforme de la CDPENAF."
+    },
+    {
+      "code": "N",
+      "libelle": "Zone naturelle et forestière",
+      "constructible": false,
+      "types_autorises": [],
+      "hauteur_max": "Non applicable",
+      "emprise_sol_max": "Non applicable",
+      "recul_voirie": "Non applicable",
+      "recul_limite_separative": "Non applicable",
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Toute construction nouvelle",
+        "Extension de l'existant",
+        "Changement de destination",
+        "Affouillements et exhaussements",
+        "Défrichement"
+      ],
+      "notes": "Zone inconstructible. Loi Littoral applicable. Natura 2000 fréquent. Toute intervention nécessite une dérogation exceptionnelle."
+    },
+    {
+      "code": "Nl",
+      "libelle": "Zone naturelle à vocation de loisirs",
+      "constructible": false,
+      "types_autorises": ["rehabilitation"],
+      "hauteur_max": "5m maximum",
+      "emprise_sol_max": "10%",
+      "recul_voirie": "10m",
+      "recul_limite_separative": "5m",
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [
+        "Constructions légères uniquement",
+        "Matériaux naturels obligatoires",
+        "Intégration paysagère exigée"
+      ],
+      "interdictions": [
+        "Constructions permanentes à usage d'habitation",
+        "Imperméabilisation importante des sols"
+      ],
+      "notes": "Équipements de loisirs légers autorisés sous conditions. Toujours soumettre à l'ABF."
+    },
+    {
+      "code": "Nco",
+      "libelle": "Zone naturelle — coupure d'urbanisation",
+      "constructible": false,
+      "types_autorises": [],
+      "hauteur_max": "Non applicable",
+      "emprise_sol_max": "0%",
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Toute construction sans exception",
+        "Tout aménagement modifiant l'aspect naturel"
+      ],
+      "notes": "Coupure d'urbanisation stricte imposée par la Loi Littoral. Inconstructible en toutes circonstances."
+    }
+  ]
+}
