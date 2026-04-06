@@ -1,0 +1,105 @@
+{
+  "commune": "Bangor",
+  "code_insee": "56009",
+  "derniere_revision_plu": "À vérifier",
+  "zones": [
+    {
+      "code": "UA",
+      "libelle": "Zone urbaine — bourg de Bangor",
+      "constructible": true,
+      "types_autorises": ["construction_neuve", "extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "7m — R+1+C maximum",
+      "emprise_sol_max": "50%",
+      "recul_voirie": "0m ou alignement",
+      "recul_limite_separative": "3m minimum",
+      "stationnement": "1 place par logement",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Toitures en ardoise naturelle",
+        "Façades pierre ou enduit chaux",
+        "Menuiseries bois imposées en secteur ABF",
+        "Couleurs des enduits soumises à validation ABF"
+      ],
+      "interdictions": [
+        "Constructions industrielles",
+        "Entrepôts",
+        "Panneaux photovoltaïques en toiture visible depuis l'espace public sans accord ABF"
+      ],
+      "notes": "Bourg rural de caractère. ABF vigilant sur l'insertion architecturale. Moins dense que Le Palais."
+    },
+    {
+      "code": "UH",
+      "libelle": "Zone urbaine de hameau — hameaux de Bangor",
+      "constructible": true,
+      "types_autorises": ["extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "6m — R+1 maximum",
+      "emprise_sol_max": "25%",
+      "recul_voirie": "5m",
+      "recul_limite_separative": "3m",
+      "stationnement": "2 places minimum",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Volumétrie respectueuse du bâti traditionnel breton",
+        "Ardoise naturelle",
+        "Pas de verre structurel dominant en façade"
+      ],
+      "interdictions": [
+        "Construction neuve isolée hors continuité de hameau"
+      ],
+      "notes": "Nombreux hameaux sur la commune. Vérifier le hameau exact et sa classification."
+    },
+    {
+      "code": "A",
+      "libelle": "Zone agricole — terres de Bangor",
+      "constructible": false,
+      "types_autorises": ["rehabilitation"],
+      "hauteur_max": "Non applicable",
+      "emprise_sol_max": "Non applicable",
+      "recul_voirie": "10m",
+      "recul_limite_separative": "5m",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Construction neuve habitation",
+        "Mitage agricole",
+        "Changement destination sauf L.151-11 CU avec CDPENAF"
+      ],
+      "notes": "Bangor conserve des terres agricoles importantes. Zone protégée contre le mitage."
+    },
+    {
+      "code": "N",
+      "libelle": "Zone naturelle — espaces naturels de Bangor",
+      "constructible": false,
+      "types_autorises": [],
+      "hauteur_max": "Non applicable",
+      "emprise_sol_max": "0%",
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Toute construction",
+        "Tout aménagement permanent"
+      ],
+      "notes": "Inclut les falaises ouest, secteurs Natura 2000. Zone de grand caractère paysager."
+    },
+    {
+      "code": "Nco",
+      "libelle": "Coupure d'urbanisation",
+      "constructible": false,
+      "types_autorises": [],
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": ["Toute construction et tout aménagement"],
+      "notes": "Imposée par la Loi Littoral. Inconstructible absolument."
+    }
+  ]
+}
