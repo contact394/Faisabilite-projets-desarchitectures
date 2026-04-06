@@ -1,0 +1,93 @@
+{
+  "commune": "Locmaria",
+  "code_insee": "56116",
+  "derniere_revision_plu": "À vérifier",
+  "notes_generales": "Locmaria est la commune la plus rurale de Belle-Île. Territoire largement naturel et agricole, avec peu de zones constructibles. Forte présence Natura 2000 et Loi Littoral sur le secteur côtier sud.",
+  "zones": [
+    {
+      "code": "UA",
+      "libelle": "Zone urbaine — bourg de Locmaria",
+      "constructible": true,
+      "types_autorises": ["construction_neuve", "extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "7m — R+1+C",
+      "emprise_sol_max": "40%",
+      "recul_voirie": "3m minimum",
+      "recul_limite_separative": "3m",
+      "stationnement": "2 places par logement",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Ardoise naturelle",
+        "Façades pierre ou enduit chaux",
+        "Menuiseries bois",
+        "Insertion paysagère soignée"
+      ],
+      "interdictions": [
+        "Constructions industrielles",
+        "Tout ce qui dénature le caractère rural du bourg"
+      ],
+      "notes": "Petit bourg rural. Peu de pression foncière. ABF présent mais moins strict qu'à Sauzon."
+    },
+    {
+      "code": "UH",
+      "libelle": "Zone de hameau",
+      "constructible": true,
+      "types_autorises": ["extension", "rehabilitation", "changement_destination"],
+      "hauteur_max": "5m — R+1 strict",
+      "emprise_sol_max": "20%",
+      "recul_voirie": "5m",
+      "recul_limite_separative": "3m",
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": false,
+      "prescriptions_architecturales": [
+        "Respect du bâti existant",
+        "Matériaux traditionnels uniquement"
+      ],
+      "interdictions": [
+        "Construction neuve hors continuité de hameau"
+      ],
+      "notes": "Hameaux peu nombreux. Extension très limitée."
+    },
+    {
+      "code": "A",
+      "libelle": "Zone agricole — terres de Locmaria",
+      "constructible": false,
+      "types_autorises": ["rehabilitation"],
+      "abf": true,
+      "loi_littoral": false,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": [
+        "Construction neuve habitation",
+        "Changement destination sans accord CDPENAF + ABF"
+      ],
+      "notes": "Zone agricole dominante sur la commune. Quelques corps de ferme en pierre pouvant faire l'objet de changement de destination sous conditions."
+    },
+    {
+      "code": "N",
+      "libelle": "Zone naturelle",
+      "constructible": false,
+      "types_autorises": [],
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": ["Toute construction et aménagement permanent"],
+      "notes": "Côtes de la côte sauvage, dunes, landes. Natura 2000 très présent. Zone de protection maximale."
+    },
+    {
+      "code": "Nco",
+      "libelle": "Coupure d'urbanisation",
+      "constructible": false,
+      "types_autorises": [],
+      "abf": true,
+      "loi_littoral": true,
+      "natura2000": true,
+      "prescriptions_architecturales": [],
+      "interdictions": ["Toute construction et tout aménagement"],
+      "notes": "Inconstructible. Loi Littoral."
+    }
+  ]
+}
